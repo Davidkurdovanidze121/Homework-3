@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset */
+
+.article-img {
+  width: 440px;
+  height: 460px;
+  top: 200px;
+  left: 70px;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.padding-from-left {
+  padding-left: 10px;
+}
+.margin-from-top {
+  margin-top: 70px;
+}
+.header-link {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 10px 20px 10px;
+}
+.header-link-margin-right {
+  margin-right: 300px;
+}
+
+.home-main-section {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.product-wrapper {
+  margin-right: 100px;
+
+  display: inline-block;
+}
+.product-wrapper-main {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.product-wrapper-img {
+  width: 280px;
+  height: 330px;
+}
+.product-wrapper-text {
+  margin-top: 20px;
+  text-align: left;
+  width: 280px;
+  font-size: 16pt;
+}
+
+.product-wrapper-text-description {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15pt;
+}
+.see-more-wrapper {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.see-more {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+}
+.padding-top {
+  padding-top: 30px;
+  text-align: center;
+  color: darkred;
+}
+.padding-from-left {
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.padding-from {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.home-header {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.contact-us-header {
+  text-align: center;
+  font-size: 28pt;
+  color: darkred;
+}
